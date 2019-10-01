@@ -1,0 +1,91 @@
+@import "init.scss";
+@import "constants.scss";
+
+.footer{
+    font-size: 14px;
+    color: #c9c9c9;
+    .top-group{
+        background: #555e67;
+        height: 100px;
+        padding-top: 26px;
+        box-sizing: border-box;
+
+        .top-inner-group{
+            width: 798px;
+            margin: 0 auto;
+            overflow: hidden;
+
+            .logo-box{
+                width: 168px;
+                height: 54px;
+                float: left;
+                background: url("https://www.xfz.cn/static/build/images/logo.png") no-repeat;
+                background-size: 100%;
+            }
+            .detail-group{
+                float: left;
+                margin-left: 84px;
+
+                .line1{
+                    overflow: hidden;
+                    .links{
+                        overflow: hidden;
+                        float: left;
+                        li{
+                            float: left;
+                            padding: 0 10px;
+                            &:first-of-type{
+                                padding-left: 0;
+                            }
+                            a{
+                                color: #c9c9c9;
+                            }
+                            border-right: 1px solid #c9c9c9;
+                            &:last-of-type{
+                                border-right: none;
+                            }
+                        }
+                    }
+
+                    .about-us{
+                        float: left;
+                        margin-left: 40px;
+                        overflow: hidden;
+                        .title{
+                            float: left;
+                        }
+
+                        .social-group{
+                            overflow: hidden;
+                            float: left;
+                            //display: inline-block;
+
+                            li{
+                                float: left;
+                            }
+                        }
+                    }
+                }
+
+                .line2{
+                    overflow: hidden;
+                    margin-top: 20px;
+                    .address{
+                        float: left;
+                    }
+                    .content{
+                        float: left;
+                        margin-left: 40px;
+                    }
+                }
+            }
+        }
+    }
+
+    .bottom-group{
+        background: #383e44;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+    }
+}
